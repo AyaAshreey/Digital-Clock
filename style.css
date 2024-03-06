@@ -1,0 +1,35 @@
+
+.container-clock{
+    border:  2px solid rgb(32, 49, 202);
+    width: 300px;
+    margin:100px  auto;
+    text-align: center;
+    padding: 60px;
+    box-shadow: 5px 5px 10px #2e2eebe7 ;
+}
+h1{
+    color: rgba(179, 59, 22, 0.918);
+}
+.dateTime{
+    margin-top: 70px;
+    background-color: rgba(74, 74, 240, 0.712);
+    padding: 7px;
+    border-radius: 5px;
+    width: 300px;
+    transition: all 0.5s;
+}
+.dateTime:hover{
+    box-shadow: 5px 5px 17px #2e2eebe7 ;
+    background-color: rgba(74, 74, 240, 0.904);
+    width: 310px;
+    
+    
+}
+.date{
+    font-size: 20px;
+}
+.time{
+    font-size: 35px ;
+    font-weight: 500;
+    margin-top: 10px;
+}
